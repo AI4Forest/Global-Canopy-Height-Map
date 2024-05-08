@@ -1,1 +1,2 @@
-# Global-Canopy-Height-Map [UNDER CONSTRUCTION, CODE COMING SOON]
+# Estimating Canopy Height at Scale [ICML2024]
+# [UNDER CONSTRUCTION, CODE COMING SOON]
