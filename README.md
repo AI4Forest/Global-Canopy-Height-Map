@@ -42,11 +42,11 @@ DFG (INST 211/667-1).
 If you use our map in your research, please cite using the following BibTex:
 
 ```
-@article{pauls2024estimating,
-      title={Estimating Canopy Height at Scale}, 
-      author={Jan Pauls and Max Zimmer and Una M. Kelly and Martin Schwartz and Sassan Saatchi and Philippe Ciais and Sebastian Pokutta and Martin Brandt and Fabian Gieseke},
-      year={2024},
-      eprint={2406.01076},
-      archivePrefix={arXiv}
+@inproceedings{pauls2024estimating,
+title={Estimating Canopy Height at Scale},
+author={Jan Pauls and Max Zimmer and Una M. Kelly and Martin Schwartz and Sassan Saatchi and Philippe CIAIS and Sebastian Pokutta and Martin Brandt and Fabian Gieseke},
+booktitle={Forty-first International Conference on Machine Learning},
+year={2024},
+url={https://openreview.net/forum?id=ZzCY0fRver}
 }
 ```
