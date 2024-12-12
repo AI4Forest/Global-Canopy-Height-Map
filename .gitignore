@@ -1,0 +1,15 @@
+# Ignore the virtual environment folder
+venv/
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore log files and temporary files
+*.log
+*.tmp
+
+# Ignore datasets or large directories (if needed)
+satellite_data/
+*.npz
+*.h5
