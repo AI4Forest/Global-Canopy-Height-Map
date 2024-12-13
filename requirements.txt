@@ -5,3 +5,6 @@ wandb
 torchmetrics
 torchvision
 tqdm
+matplotlib
+seaborn
+scipy
