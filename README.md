@@ -3,7 +3,7 @@
 [Jan Pauls](https://www.wi.uni-muenster.de/de/institut/dasc/personen/jan-pauls), [Max Zimmer](https://maxzimmer.org), [Una M. Kelly](https://www.wi.uni-muenster.de/de/institut/dasc/personen/una-kelly), [Martin Schwartz](https://www.researchgate.net/profile/Martin-Schwartz-6), [Sassan Saatchi](https://science.jpl.nasa.gov/people/Saatchi/), [Philippe Ciais](https://www.lsce.ipsl.fr/Phocea/Pisp/index.php?nom=philippe.ciais), [Sebastian Pokutta](https://pokutta.com), [Martin Brandt](https://www.researchgate.net/profile/Martin-Brandt-2), [Fabian Gieseke](https://www.wi.uni-muenster.de/department/dasc/people/fabian-gieseke)
 
 
-[[`Paper`](http://arxiv.org/abs/2406.01076)] [`Google Earth Engine viewer`](https://worldwidemap.projects.earthengine.app/view/canopy-height-2020)] [[`BibTeX`](#citing-the-paper)]
+[[`Paper`](http://arxiv.org/abs/2406.01076)] [[`Blogpost`](https://maxzimmer.org/blog/2025/estimating-canopy-height-at-scale/)]  [`Google Earth Engine viewer`](https://worldwidemap.projects.earthengine.app/view/canopy-height-2020)] [[`BibTeX`](#citing-the-paper)]
 
 ![Global canopy height map](figures/global_canopy_height.png)
 
