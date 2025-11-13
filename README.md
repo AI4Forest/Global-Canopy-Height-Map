@@ -25,6 +25,25 @@ var canopy_height_2020 = ee.ImageCollection('projects/worldwidemap/assets/canopy
 var canopy_height_2020 = ee.ImageCollection('projects/worldwidemap/assets/canopyheight2020').mosaic()
 ```
 
+To download a specific region of our map, the easiest option is to use a Google Earth Engine Export job. When you have your region of interest loaded as a shapefile, you can use the following script:
+```
+var region_of_interest = ...
+var canopy_height_2020 = ee.ImageCollection('projects/worldwidemap/assets/canopyheight2020').mosaic();
+var clipped_canopy = canopy_height_2020.clip(region_of_interest);
+Export.image.toDrive({
+  image: clipped_canopy,
+  description: 'pauls_et_al_2024_canopy_height_2020_export',
+  folder: 'GEE_exports', // Optional: specify your Drive folder
+  fileNamePrefix: 'pauls_et_al_2024_canopy_height_2020_export',
+  region: region_of_interest.geometry(),
+  scale: 10, 
+  crs: 'EPSG:3857', // Adjust CRS if needed
+  maxPixels: 1e13
+});
+```
+
+In case you want to download larger continents or the entire world, you can also contact us [jan.pauls@uni-muenster.de](jan.pauls@uni-muenster.de) (primary) or the [AI4Forest Team](https://ai4forest.eu) website.
+
 ## Acknowledgements
 
 This paper is part of the project *AI4Forest*, which is funded by the
