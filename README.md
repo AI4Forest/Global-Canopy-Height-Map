@@ -58,7 +58,7 @@ german federal ministry for education and research
 national research agency ([anr](https://anr.fr/en/)). Further,
 calculations (or parts of them) for this publication were performed on
 the HPC cluster PALMA II of the University of Münster, subsidised by the
-DFG (INST 211/667-1).
+DFG (INST 211/667-1). This work was further supported by CTrees (https://ctrees.org).
 
 ## Citing the paper
 
